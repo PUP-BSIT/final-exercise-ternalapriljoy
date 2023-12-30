@@ -1,1 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nn2YhwXT)
+# Hi, I'm April.
+
+Still in junior year, navigating my way through college.
+
+### Get to know me!
+visit my personal portfolio here: [aprxljternal.netlify.app](https://aprxljternal.netlify.app)
