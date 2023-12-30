@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Odd or Even?</title>
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+  </head>
+  <body class="oddeven-body">
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="logo" />
+      </div>
+    </header>
+
+    <div class="oddeven-answer-container">
+      <div class="oddeven-answer">
+        <h1>ODD or EVEN?</h1>
+        <p id="oddevenDisplay">ANSWER:</p>
+      </div>
+    </div>
+
+    <div class="oddeven-container">
+      <div class="oddeven-content">
+        <label for="numberInput">Enter a number:</label>
+        <input type="number" id="numberInput" placeholder="Enter a number" />
+        <button id="checkbutton" onclick="checkOddEven()">Check</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

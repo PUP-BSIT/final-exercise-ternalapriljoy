@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Fibonacci Sequence</title>
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="logo" />
+      </div>
+    </header>
+
+    <div class="fibonacci-answer-container">
+      <div class="fibonacci-answer">
+        <h1>FIBONACCI SEQUENCE</h1>
+        <p id="sequenceDisplay">ANSWER:</p>
+      </div>
+    </div>
+    <div class="fibonacci-container">
+      <div class="fibonacci-content">
+        <label for="countNum">Enter a number:</label>
+        <input type="number" id="countNum" />
+        <button onclick="generateFibonacciSequence()">Generate Sequence</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

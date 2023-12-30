@@ -1,0 +1,229 @@
+body {
+  background-color: #242443;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(94, 36, 95);
+  display: grid;
+  grid-template-areas: "itm1 itm2 itm3";
+}
+.logo img {
+  width: 70px;
+  height: 70px;
+  grid-area: itm1;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.title h1 {
+  color: white;
+  grid-area: itm2;
+  text-align: center;
+  font-family: Georgia;
+}
+
+.report h1 {
+  font-family: Arial;
+  font-size: 13px;
+  color: rgb(195, 181, 233);
+  grid-area: itm3;
+  margin-top: 30px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.selection {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.title-selection {
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+.my-name {
+  margin-top: 100px;
+  text-align: center;
+  color: rgb(174, 138, 179);
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.oddeven,
+.fibonacci,
+.factorial {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.content {
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.content img {
+  width: 180px;
+  height: 240px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.content p {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  max-width: 170px;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 10px;
+  color: rgb(197, 228, 255);
+  height: 80px;
+  margin: 15px 15px 0px 20px;
+}
+
+.content button,
+.content a {
+  background-color: #fefefe;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.fibonacci-container,
+.fibonacci-answer-container,
+.factorial-container,
+.factorial-answer-container,
+.oddeven-container,
+.oddeven-answer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.fibonacci-content,
+.factorial-content,
+.oddeven-content {
+  width: 300px; /* Adjust the width of the containers as needed */
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+.fibonacci-answer {
+  width: 300px;
+  background-color: #752c96;
+  font-family: "Lucida Sans";
+  color: #fefefe;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+.factorial-answer {
+  width: 300px;
+  background-color: #962c7a;
+  font-family: "Lucida Sans";
+  color: #fefefe;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+.oddeven-answer {
+  width: 300px;
+  background-color: #2c6896;
+  font-family: "Lucida Sans";
+  color: #fefefe;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+.fibonacci-answer p,
+.factorial-answer p,
+.oddeven-answer p {
+  font-family: "Lucida Sans";
+  color: #c3c5ff;
+  border-radius: 15px;
+  font-size: 12px;
+  text-align: center;
+  margin: 10px;
+}
+
+.fibonacci-content input,
+.fibonacci-content button,
+.fibonacci-content p,
+.fibonacci-answer p,
+.factorial-content input,
+.factorial-content button,
+.factorial-content p,
+.factorial-answer p,
+.oddeven-content input,
+.oddeven-content button,
+.oddeven-content p,
+.oddeven-answer p {
+  margin: 10px;
+}
+
+/*for mobile*/
+@media (max-width: 320px),
+  (min-width: 376px) and (max-width: 425px),
+  (min-width: 321px) and (max-width: 375px),
+  (min-width: 426px) and (max-width: 768px) {
+  body {
+    background-color: #3f2443;
+  }
+
+  header {
+    display: grid;
+    grid-template-areas:
+      "itm1 itm2"
+      "itm3 itm3";
+    align-items: end;
+  }
+
+  .logo img {
+    width: 70px;
+    height: 70px;
+    grid-area: itm1;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .title h1 {
+    color: white;
+    grid-area: itm2;
+    text-align: left;
+    margin-right: 50px;
+  }
+
+  .report {
+    grid-area: itm3;
+    background-color: rgba(117, 44, 150, 0.5);
+  }
+
+  .report h1 {
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .selection {
+    flex-direction: column;
+  }
+}

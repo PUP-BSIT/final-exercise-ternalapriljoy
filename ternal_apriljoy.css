@@ -339,6 +339,7 @@ header nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .goals-item {
@@ -569,6 +570,35 @@ header nav ul li a {
   border-radius: 5px;
   font-size: 18px;
   cursor: pointer;
+}
+
+.letter-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: #b5c8b3;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.letter-container p {
+  margin-bottom: 20px;
+}
+
+.italicized-text {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.letter-content {
+  text-align: justify;
+  font-size: 20px;
+  color: #525252;
+}
+
+.letter-content p {
+  margin-bottom: 30px;
 }
 
 .grayscale {

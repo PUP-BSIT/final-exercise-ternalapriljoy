@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Factorial</title>
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="logo" />
+      </div>
+    </header>
+
+    <div class="factorial-answer-container">
+      <div class="factorial-answer">
+        <h1>FACTORIAL CALCULATOR</h1>
+        <p id="factorialResult">ANSWER:</p>
+      </div>
+    </div>
+
+    <div class="factorial-container">
+      <div class="factorial-content">
+        <label for="factorialInput">Enter a number:</label>
+        <input type="number" id="factorialInput" />
+        <button onclick="calculateFactorial()">Calculate Factorial</button>
+        <p id="factorialResult"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
